@@ -1,0 +1,148 @@
+*{
+    font-family: 'Roboto', sans-serif;
+}
+.container {
+    width: 90%;
+    margin: 1.5rem auto;
+    background-color: #f2f2f2;
+}
+header img{
+    min-width: 100px;
+    display: block;
+    margin: 0 auto;
+}
+#top-menu{
+    padding: .7em;
+    text-align: center;
+    top: 10px;
+    margin: 0 auto;
+}
+#top-menu a {
+    display: inline;
+    color: black;
+    border-right: 1px solid black;
+}
+#home button{
+    background-color: transparent;
+    border-color: white;
+    color: white;
+    height: 30px;
+}
+.container-100 {
+    width: 100%;
+    background-color: black;
+    color: white;
+    display: flex;
+    flex-direction: column;
+}
+.container2 {
+    width: 90%;
+    display: flex;
+    border: 1px solid black;
+    justify-content: center;
+    flex-direction: column;
+
+}
+.container2 div{
+    border: 1px solid black;
+    padding: 50px;
+}
+.container2 div h4,p{
+    padding-top: 10px;
+}
+.row-50 {
+    display: flex;
+    width: 90%;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+}  
+.col-50 {
+    flex: 50%;
+  }
+.col-50 img{
+    max-width: 50%;
+}
+.col-50 button{
+     width: 200px;
+}
+.col-50 div{
+    justify-content: center;
+    align-items: center;
+}
+#testo label{
+    border: 1px solid white;
+    border-radius: 5px;
+    text-transform: uppercase;
+    color: white;
+
+}
+.col-50 #form{
+    background-color: coral;
+
+}
+#form{
+    flex-direction: column;
+    width: 100%;
+    justify-content: center;
+    align-items: center;
+}
+#form input{
+    height: 30px;
+    width: 100%;
+}
+#sfondo {
+        background-image: url('./immagini/parallasse.jpg');
+        background-position: center;
+        background-size: cover;
+        background-repeat: no-repeat;
+        background-attachment: fixed;
+        min-height: 200px;
+        position: relative;
+        width: 100%;
+}
+.row-25 {
+    display: flex;
+    width: 100%;
+    justify-content: space-around;
+    align-items: center;
+    background-color: black;
+    flex-direction: column;
+}  
+.col-25 {
+    flex: 25%;
+    color: white;
+  }
+.col-25 ul{
+    padding-top: 20px;
+}
+.col-25 li{
+    padding: 5px;
+}
+.row-25 address{
+    background-color: white;
+    /* justify-content: center; */
+    width: 100%;
+}
+
+
+@media screen and (min-width: 768px) {
+    #top-menu li{
+        display: inline-block;
+        margin: 0 10px;
+    }
+    .container {
+        margin: 1.5rem auto;
+        flex-direction: row;
+    }
+    .container2{
+        flex-direction: row;
+    }
+    .row-50{
+        flex-direction: row;
+    }
+    .row-25{
+        flex-direction: row;
+        padding: 15px;
+    }
+}
